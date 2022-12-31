@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1440px) {
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(210, 60%, 98%);
+        display: grid;
+        place-items: center;
+    }
+    
+    main{
+    
+        background-color: white;
+        height: 90vh;
+        width: 46vw;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .top .left{
+        display: flex;
+    }
+    .left .no{
+        margin-left: 20px;
+        /* border: 1px solid black; */
+        height: 22px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-color:  hsl(219, 85%, 26%);
+        color: white;
+    }
+    
+    
+    .noti{
+        margin-top: 5px;
+        display: flex;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .message:hover{
+        background-color: hsl(205, 33%, 90%);
+    }
+    
+    .color{
+        background-color:hsl(211, 68%, 94%) ;
+    }
+    .line{
+        display: flex;
+        margin-left: 2px;
+    }
+    .image img{
+        width: 30px;
+        height: 30px;
+    }
+    .text{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .name, .para, .post, .red, .group, .time, #white{
+        margin-left: 5px;
+    }
+    .message{
+        border: 1px solid black;
+        width: 89%;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 11%;
+    }
+    .pic{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .one{
+        display: flex;
+    }
+    .two img{
+        width: 30px;
+        height: 30px;
+        /* margin-left: 160%; */
+    }
+    
+    .name, .post, .group{
+        font-weight: 600;
+    }
+    #red{
+    font-size: 10px;
+        color: red;
+    
+    }
+    .post:hover, .group:hover, .name:hover, .message:hover, .right:hover, .two:hover{
+        cursor: pointer;
+    }
+    .para{
+        color: hsl(219, 14%, 63%);
+    }
+    .post{
+        color: hsl(219, 12%, 42%);
+    }
+    .group{
+        color: hsl(219, 85%, 26%)
+    }
+    .name:hover, .post:hover, .group:hover, .right:hover{
+        color: hsl(219, 85%, 26%);
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+
+     body{
+
+        background-color: white;
+        display: grid;
+        place-items: center;
+    }
+    
+    main{
+    
+        background-color: white;
+        height: 90vh;
+        width: 100vw;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

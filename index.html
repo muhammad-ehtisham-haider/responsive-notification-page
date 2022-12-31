@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="top">
+            <div class="left">
+                <div class="heading">
+                    <h2>Notifications</h2>
+                </div>
+                <div class="no"> 
+                    <p id="p1" >3</p> 
+                </div>
+            </div>
+            <div class="right" onclick="remove() ; two() ; replace() ">
+                <p>Mark all as read</p> 
+            </div>
+        </div>
+
+
+
+        <div class="noti color" >
+            <div class="image"><img src="images/avatar-mark-webber.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <p><span class="name">Mark Webber</span> <span class="para">reacted to your recent post</span>  <span class="post">My first tournament today!</span> <span id="red"> <i class="fa-solid fa-circle"></i> </span></p>
+
+                </div>
+                <div class="time">1m ago</div>
+            </div>     
+        </div>
+
+
+        <div class="noti color" >
+            <div class="image"><img src="images/avatar-angela-gray.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <p><span class="name">RAngela Gray</span> <span class="para">followed you</span>  <span id="red"> <i class="fa-solid fa-circle"></i> </span> </p>
+
+                </div>
+                <div class="time">5m ago</div>
+            </div>
+        </div>
+
+        <div class="noti color" >
+            <div class="image"><img src="images/avatar-jacob-thompson.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <p><span class="name">Jacob Thompson</span> <span class="para">has joined you group</span> <span class="group">Chess Club</span> <span id="red"> <i class="fa-solid fa-circle"></i></span> </p>
+
+                </div>
+                <div class="time">1 day ago</div>
+            </div>
+        </div>
+
+        <div class="noti " >
+            <div class="image"><img src="images/avatar-rizky-hasanuddin.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <p><span class="name">Rizky Hasanuddin</span> <span class="para">send you a private message</span> </p>
+
+                </div>
+                <div class="time">5 days ago</div>
+            </div>
+        </div>
+        <div class="message"><p>Hello, thanks for setting up the Chess Club. I've been member for a few weeks now and I'm already
+            having lots of fun and improving my game. </p></div>
+
+            <div class="noti" >
+            <div class="image"><img src="images/avatar-kimberly-smith.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <div class="pic">
+                        <div class="one">
+                            <p><span class="name">Kimberly Smith</span> <span class="para">commented on your picture</span> </p>
+
+                          
+                        </div>
+                        <div class="two">
+                            <img src="images/image-chess.webp" alt="">
+                        </div> 
+                    </div>
+                                         
+                </div>
+            </div>
+        </div>
+
+
+        <div class="noti " >
+            <div class="image"><img src="images/avatar-nathan-peterson.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <p><span class="name">Nathan Peterson</span> <span class="para"> reacted to your recent post</span>  <span class="post">5 end-game strategies to increase you win rate</span></p>
+
+                </div>
+                <div class="time">2 week ago</div>
+            </div>     
+        </div>
+
+
+        <div class="noti">
+            <div class="image"><img src="images/avatar-anna-kim.webp" alt=""></div>
+            <div class="text">
+                <div class="line">
+                    <p> <span class="name" >Anna Kim </span> <span class="para">left the group</span> <span class="group">Chess Club</span></p>                  
+      
+                </div>
+                <div class="time">2 week ago</div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
